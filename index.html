@@ -147,7 +147,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="personal">
+              <div class="personal show-modal-window">
                 <a href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -172,6 +172,60 @@
               <span></span>
             </div>
           </div>
+          <!-- login -->
+
+          <!-- modal-window -->
+          <div class="modal-window log-in hidden">
+            <div class="close-modal-window">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+              >
+                <path
+                  d="M25 7L16 16M7 25L16 16M16 16L7 7M16 16L25 25"
+                  stroke="#2E3442"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <div class="log-in__text">
+              <h3>Вхід</h3>
+              У вас ще немає профілю на сайті? <span>Зареєструватися</span>
+            </div>
+            <form class="log-in__form" action="">
+              <label for="">
+                Електронна пошта
+                <input type="email" />
+              </label>
+              <label for="">
+                Пароль
+                <input type="password" />
+              </label>
+              <div class="log-in__modul">
+                <div class="checkbox-primary">
+                  <div class="checkbox-primary__label" for="chexboxPrimary">
+                    <div class="checkbox-primary__item"></div>
+                    <div>Запам’ятати мене</div>
+                  </div>
+                </div>
+                <div class="log-in__forgot">Забули пароль?</div>
+              </div>
+              <button class="log-in__btn btn-accent" type="submit">
+                Увійти
+              </button>
+            </form>
+          </div>
+          <!-- modal-window -->
+
+          <!-- background blur -->
+          <div class="overlay-log hidden"></div>
+          <!-- background blur -->
+          <!-- login -->
         </div>
       </header>
       <main class="main">
